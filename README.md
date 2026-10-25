@@ -1,280 +1,142 @@
-\#  🔐 Foundations of Cybersecurity
+# 🔐 Foundations of Cybersecurity
 
+### ApexPlanet Cybersecurity Internship | Task 1
 
+**Learning cybersecurity through practical exercises, lab environments, and security tool exploration.**
 
-\### ApexPlanet Cybersecurity Internship | Task 1
+---
 
+## 📌 About the Project
 
+Welcome to my **Foundations of Cybersecurity** repository!
 
-Building a foundation in cybersecurity through hands-on lab exercises, security tool exploration, Linux command-line practice, networking, and cryptography.
+This project documents the foundational concepts and hands-on exercises I completed as part of **Task 1 of the ApexPlanet Cybersecurity Internship**. It combines cybersecurity theory with practical activities involving Linux, networking, cryptography, and security tools in a controlled lab environment.
 
+## 🎯 Learning Objectives
 
+- Understand the CIA triad and fundamental cybersecurity principles.
+- Practise Linux commands and file permissions.
+- Explore IP addressing and network connectivity.
+- Perform network scanning with Nmap.
+- Capture and inspect network traffic using Wireshark.
+- Intercept and inspect HTTP requests using Burp Suite.
+- Test basic client-server communication using Netcat.
+- Explore encryption, decryption, and hashing with OpenSSL.
+- Record practical observations and maintain supporting evidence.
 
-\---
+## 🧰 Tools & Technologies
 
-
-
-\##  📌 Project Overview
-
-
-
-This repository documents my learning and practical activities completed as part of \*\*Task 1 of the ApexPlanet Cybersecurity Internship\*\*.
-
-
-
-The project focuses on understanding core cybersecurity principles and applying fundamental concepts through practical exercises in a controlled lab environment.
-
-
-
-\## 🎯 Objectives
-
-
-
-\- Understand the CIA triad and core cybersecurity concepts.
-
-\- Practise Linux commands and file permission management.
-
-\- Explore IP addressing and network connectivity.
-
-\- Perform basic network scanning using Nmap.
-
-\- Capture and inspect network traffic using Wireshark.
-
-\- Intercept and inspect HTTP requests using Burp Suite.
-
-\- Test basic client-server communication using Netcat.
-
-\- Perform encryption, decryption, and hash verification using OpenSSL.
-
-\- Document practical exercises and their results.
-
-
-
-\## 🛠️ Tools \& Technologies
-
-
-
-| Tool | Purpose |
-
+| Tool | Application |
 |---|---|
+| Kali Linux | Cybersecurity practice environment |
+| Oracle VirtualBox | Virtual machine management |
+| Metasploitable 2 | Intentionally vulnerable lab target |
+| Nmap | Network scanning and service discovery |
+| Wireshark | Packet capture and traffic analysis |
+| Burp Suite | HTTP request interception and inspection |
+| Netcat | Basic network communication |
+| OpenSSL | Encryption and decryption |
+| SHA-256 | File integrity verification |
+| Git & GitHub | Version control and project hosting |
 
-| \*\*Kali Linux\*\* | Cybersecurity lab environment |
+## 🧪 Practical Labs
 
-| \*\*Oracle VirtualBox\*\* | Virtual machine management |
+### 01 — Linux Command-Line Practice
+Practised directory navigation, file operations, viewing file contents, and changing file permissions.
 
-| \*\*Metasploitable 2\*\* | Intentionally vulnerable practice target |
+### 02 — Networking & Connectivity
+Explored IP addressing and connectivity testing to understand basic network communication.
 
-| \*\*Nmap\*\* | Network scanning and service discovery |
+### 03 — Network Scanning with Nmap
+Scanned the lab target to identify reachable ports and services and understand the importance of reviewing exposed services.
 
-| \*\*Wireshark\*\* | Network packet capture and analysis |
+### 04 — Packet Analysis with Wireshark
+Captured network traffic and explored packets using protocol filters.
 
-| \*\*Burp Suite\*\* | HTTP request interception and inspection |
+### 05 — HTTP Inspection with Burp Suite
+Explored HTTP request interception and inspection in a controlled testing environment.
 
-| \*\*Netcat\*\* | Basic client-server communication |
+### 06 — Network Communication with Netcat
+Practised basic client-server communication using a listener and client.
 
-| \*\*OpenSSL\*\* | Encryption and decryption |
+### 07 — Cryptography with OpenSSL
+Encrypted and decrypted a test message using AES-256-CBC with PBKDF2, compared the original and decrypted files, and verified matching SHA-256 hashes.
 
-| \*\*SHA-256\*\* | File integrity verification |
-
-| \*\*Git \& GitHub\*\* | Version control and project hosting |
-
-
-
-\## 🧪 Practical Exercises
-
-
-
-\### 1. Linux Command-Line Practice
-
-Practised directory navigation, file creation, copying and moving files, viewing file contents, and changing file permissions.
-
-
-
-\### 2. Networking \& Connectivity Testing
-
-Explored IP addressing, connectivity testing, and basic network communication in the lab environment.
-
-
-
-\### 3. Network Scanning with Nmap
-
-Scanned the lab target to identify open ports and running services, gaining experience in basic network reconnaissance.
-
-
-
-\### 4. Network Traffic Analysis with Wireshark
-
-Captured network packets and explored traffic using protocol filters to understand network communication.
-
-
-
-\### 5. HTTP Request Inspection with Burp Suite
-
-Explored intercepting and inspecting HTTP requests in a controlled testing environment.
-
-
-
-\### 6. Client-Server Communication with Netcat
-
-Practised basic network communication between a listener and a client using Netcat.
-
-
-
-\### 7. Cryptography with OpenSSL
-
-Encrypted and decrypted a test message using AES-256-CBC with PBKDF2. Compared the original and decrypted files and verified matching SHA-256 hashes.
-
-
-
-\## 📂 Repository Structure
-
-
+## 📂 Repository Structure
 
 ```text
-
 Foundations-of-Cybersecurity/
-
 ├── README.md
-
 ├── Cybersecurity-Basics.md
-
 ├── Networking-Basics.md
-
 ├── Linux-Cheat-Sheet.md
-
 ├── Cryptography-Basics.md
-
 ├── Tool-Testing.md
-
 ├── Lab-Setup-Report.md
-
 ├── .gitignore
-
 ├── screenshots task 1/
-
 │   ├── burp suite.png
-
 │   ├── capture.pcap.png
-
 │   ├── linux commands 1.png
-
 │   ├── linux commands 2.png
-
 │   ├── metasplotable ip.png
-
 │   ├── net cat 1.png
-
 │   ├── netcat 2.png
-
 │   ├── network testing 2.png
-
 │   ├── network testing.png
-
 │   ├── network-test.png
-
 │   ├── nmap result.png
-
-│   └── open ssl.png
-
+│   ├── open ssl.png
+│   └── Screen Recordings/
 └── results/
-
-&#x20;   ├── capture.pcap.png
-
-&#x20;   ├── linux-commands.txt
-
-&#x20;   ├── nmap-results.txt
-
-&#x20;   └── openssl-results.txt
-
+    ├── capture.pcap.png
+    ├── linux-commands.txt
+    ├── nmap-results.txt
+    └── openssl-results.txt
 ```
 
+## 📚 Documentation
 
-
-\## 📚 Documentation
-
-
-
-| Document | Description |
-
+| Document | What it Covers |
 |---|---|
+| [Cybersecurity Basics](Cybersecurity-Basics.md) | Security principles, common threats, and good practices |
+| [Networking Basics](Networking-Basics.md) | Networking concepts and connectivity |
+| [Linux Cheat Sheet](Linux-Cheat-Sheet.md) | Commands used during practice |
+| [Cryptography Basics](Cryptography-Basics.md) | Encryption, decryption, and hashing |
+| [Tool Testing](Tool-Testing.md) | Tool exercises and practical observations |
+| [Lab Setup Report](Lab-Setup-Report.md) | Lab environment and configuration |
 
-| \[Cybersecurity Basics](Cybersecurity-Basics.md) | Core security principles and common threats |
+## 📸 Screenshots & Results
 
-| \[Networking Basics](Networking-Basics.md) | Networking concepts and connectivity |
+The `screenshots task 1/` directory contains screenshots documenting the practical exercises.
 
-| \[Linux Cheat Sheet](Linux-Cheat-Sheet.md) | Linux commands practised during the exercises |
+The `results/` directory contains supporting output and evidence:
 
-| \[Cryptography Basics](Cryptography-Basics.md) | Encryption, decryption, and hashing |
+- `linux-commands.txt` — Linux command practice.
+- `nmap-results.txt` — Nmap scan output.
+- `openssl-results.txt` — Cryptography exercise results.
+- `capture.pcap.png` — Network capture evidence.
 
-| \[Tool Testing](Tool-Testing.md) | Security tools and practical observations |
+## 🔒 Lab Safety
 
-| \[Lab Setup Report](Lab-Setup-Report.md) | Lab environment and configuration |
+All testing activities were intended for a controlled lab environment and authorized targets. Metasploitable 2 is intentionally vulnerable and should be isolated from public networks.
 
+## 🌱 Key Takeaways
 
+- Strengthened my understanding of foundational cybersecurity concepts.
+- Gained introductory hands-on experience with network and security tools.
+- Practised Linux, networking, and cryptography exercises.
+- Improved technical documentation and evidence collection.
 
-\## 📊 Results \& Evidence
+## 👩‍💻 About Me
 
+Cybersecurity postgraduate student interested in:
 
+- Digital Forensics and Incident Response (DFIR)
+- Security Operations Centre (SOC)
+- Vulnerability Assessment and Penetration Testing (VAPT)
+- Governance, Risk, and Compliance (GRC)
 
-Practical evidence and output files are organized in the following directories:
+---
 
-
-
-\- \*\*Screenshots:\*\* `screenshots task 1/`
-
-\- \*\*Linux command output:\*\* `results/linux-commands.txt`
-
-\- \*\*Nmap scan results:\*\* `results/nmap-results.txt`
-
-\- \*\*OpenSSL results:\*\* `results/openssl-results.txt`
-
-\- \*\*Network capture evidence:\*\* `results/capture.pcap.png`
-
-
-
-\## 🎓 Key Learning Outcomes
-
-
-
-\- Developed an understanding of foundational cybersecurity principles.
-
-\- Gained hands-on experience with Linux and networking tools.
-
-\- Explored network scanning, packet capture, and HTTP request inspection.
-
-\- Practised basic client-server communication.
-
-\- Applied encryption, decryption, and SHA-256 hash comparison.
-
-\- Improved technical documentation and evidence collection skills.
-
-
-
-\## 🔒 Lab Safety
-
-
-
-All testing was intended for a controlled lab environment and authorized targets. Metasploitable 2 is intentionally vulnerable and should be kept isolated from public networks.
-
-
-
-\## 👩‍💻 Author
-
-
-
-\*\*Cybersecurity Postgraduate Student\*\*
-
-
-
-\*\*Areas of Interest:\*\* Digital Forensics and Incident Response (DFIR) · Security Operations Centre (SOC) · Vulnerability Assessment and Penetration Testing (VAPT) · Governance, Risk, and Compliance (GRC)
-
-
-
-\---
-
-
-
-\*Project completed as part of the ApexPlanet Cybersecurity Internship — Task 1.\*
-
-
-
+*Part of my ongoing cybersecurity learning journey.*
