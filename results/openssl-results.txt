@@ -1,0 +1,34 @@
+FOUNDATIONS OF CYBERSECURITY — OPENSSL PRACTICAL RESULTS
+
+Objective:
+To practise symmetric encryption and decryption using OpenSSL and verify file integrity using SHA-256 hashes.
+
+Environment: Kali Linux
+
+Encryption algorithm: AES-256-CBC
+Key derivation: PBKDF2
+
+Input file: message.txt
+Encrypted file: message.enc
+Decrypted file: decrypted.txt
+
+Commands performed:
+1. Created a sample text file using printf.
+2. Encrypted the file using OpenSSL AES-256-CBC with PBKDF2.
+3. Decrypted the encrypted file.
+4. Compared the original and decrypted files using diff.
+5. Calculated SHA-256 hashes using sha256sum.
+
+Decryption verification:
+Files message.txt and decrypted.txt are identical.
+
+SHA-256 verification:
+36c2491a56931f3ca8f56ca05d6bc35b27d00cc246e529c9e7419bf90100a586  message.txt
+
+36c2491a56931f3ca8f56ca05d6bc35b27d00cc246e529c9e7419bf90100a586  decrypted.txt
+
+Conclusion:
+The file was successfully encrypted and decrypted. The original and decrypted files were identical, and their SHA-256 hashes matched, confirming that the decrypted content matched the original.
+
+Security note:
+AES-256-CBC provides confidentiality when used correctly. It does not provide authenticated integrity by itself; a separate authentication mechanism is needed for that purpose.

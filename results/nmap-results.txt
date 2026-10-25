@@ -1,0 +1,51 @@
+FOUNDATIONS OF CYBERSECURITY — NMAP SCAN RESULTS
+
+Target IP: 192.168.56.102
+Target: Metasploitable 2 virtual machine
+Tool: Nmap 7.95
+Scan option: -sV (service and version detection)
+Scan status: Completed — host is up
+Scan duration: 13.13 seconds
+
+OBJECTIVE
+Identify open TCP ports and determine the services and versions exposed by the lab target.
+
+OBSERVED RESULTS
+
+Port 21/tcp — FTP — vsftpd 2.3.4
+Port 22/tcp — SSH — OpenSSH 4.7p1 Debian 8ubuntu1
+Port 23/tcp — Telnet — Linux telnetd
+Port 25/tcp — SMTP — Postfix smtpd
+Port 53/tcp — DNS — ISC BIND 9.4.2
+Port 80/tcp — HTTP — Apache httpd 2.2.8 (Ubuntu) DAV/2
+Port 111/tcp — RPC — rpcbind
+Port 139/tcp — NetBIOS-SSN — Samba smbd 3.X–4.X
+Port 445/tcp — NetBIOS-SSN — Samba smbd 3.X–4.X
+Port 512/tcp — exec — netkit-rsh rexecd
+Port 513/tcp — login — rlogin service
+Port 514/tcp — shell — NetKit rshd
+Port 1099/tcp — Java RMI — GNU Classpath grmiregistry
+Port 1524/tcp — bindshell — Metasploitable root shell
+Port 2049/tcp — NFS — RPC service
+Port 2121/tcp — FTP — ProFTPD 1.3.1
+Port 3306/tcp — MySQL — MySQL 5.0.51a-3ubuntu5
+Port 5432/tcp — PostgreSQL — PostgreSQL 8.3.0–8.3.7
+Port 5900/tcp — VNC — VNC 3.3
+Port 6000/tcp — X11 — Access denied
+Port 6667/tcp — IRC — UnrealIRCd
+Port 8009/tcp — AJP13 — Apache JServ
+Port 8180/tcp — HTTP — Apache Tomcat/Coyote JSP engine 1.1
+
+Additional observation:
+Nmap reported 977 closed TCP ports. The host was detected as running Linux. DNS reverse-lookup warnings occurred because DNS servers could not be determined; the scan itself completed.
+
+SECURITY OBSERVATIONS
+- Several remote-access services are exposed, including Telnet and rlogin.
+- FTP, SSH, web services, database services, and file-sharing services are accessible.
+- The detected service versions are old and warrant further security assessment in a controlled lab.
+- The presence of an open port does not, by itself, prove that a vulnerability is exploitable.
+
+CONCLUSION
+The scan identified multiple open TCP ports and service versions on the Metasploitable 2 lab machine. This demonstrates how Nmap can help identify a system's network attack surface and guide further authorized security testing.
+
+Evidence screenshot: screenshots/nmap.png

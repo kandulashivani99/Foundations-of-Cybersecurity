@@ -1,0 +1,41 @@
+FOUNDATIONS OF CYBERSECURITY — LINUX PRACTICAL RESULTS
+
+Environment: Kali Linux
+
+Objective:
+To practise basic Linux commands, file operations, and file permissions.
+
+Commands performed:
+
+1. `pwd`
+   Purpose: Display the current working directory.
+
+2. `ls -la`
+   Purpose: List files, directories, and hidden files.
+
+3. `mkdir -p ~/task1-practice`
+   Purpose: Create a practice directory.
+
+4. `cd ~/task1-practice`
+   Purpose: Change to the practice directory.
+
+5. `echo "Cybersecurity lab practice" > test.txt`
+   Purpose: Create a text file containing sample text.
+
+6. `cat test.txt`
+   Purpose: Display the contents of the file.
+
+7. `cp test.txt copy.txt`
+   Purpose: Copy the file.
+
+8. `mv copy.txt renamed.txt`
+   Purpose: Rename the copied file.
+
+9. `chmod 600 test.txt`
+   Purpose: Allow the file owner to read and write the file.
+
+10. `chmod 644 test.txt`
+    Purpose: Give the owner read/write permission and others read permission.
+
+Result:
+Basic Linux navigation, file handling, and permission commands were practised.
