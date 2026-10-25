@@ -1,4 +1,4 @@
-\# 🔐 Foundations of Cybersecurity
+\#  🔐 Foundations of Cybersecurity
 
 
 
@@ -14,7 +14,7 @@ Building a foundation in cybersecurity through hands-on lab exercises, security 
 
 
 
-\## 📌 Project Overview
+\##  📌 Project Overview
 
 
 
